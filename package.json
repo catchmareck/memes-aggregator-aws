@@ -2,6 +2,7 @@
   "name": "memes-aggregator",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/catchmareck/memes-aggregator-aws.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
