@@ -13,7 +13,7 @@ provider:
     AMS3_BUCKET_NAME: ams3-bfc33e45-6504-44c4-b9be-c4113dff3763
     DMS3_BUCKET_NAME: dms3-ab6cb3dc-fbd7-49b5-b4ca-c829a9f5e5c9
     CELEBRITY_NAME: Andrzej Duda
-    WEBSITES_URLS: https://kwejk.pl,https://kwejk.pl/tag/duda,https://www.facebook.com/pg/AndrzejDudaMemes/photos/
+    WEBSITES_URLS: https://kwejk.pl,https://kwejk.pl/tag/duda,https://www.facebook.com/pg/AndrzejDudaMemes/photos/,https://www.wykop.pl/tag/duda/
     SL_ALLOWED_IMG_EXTENSIONS: jpg,png
     SL_BUCKET_IMAGES_LIMIT: 100
 
