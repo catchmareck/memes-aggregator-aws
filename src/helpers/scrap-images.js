@@ -22,9 +22,11 @@ module.exports = (websiteUrls, callback) => {
                 $("img").each(function () {
 
                     const src = $(this).attr('src');
-                    const ext = src.substring(src.lastIndexOf('.') + 1);
+                    const ext = src ? src.substring(src.lastIndexOf('.') + 1) : '';
+                    const hasComma = src ? src.indexOf(',') !== -1 : false;
 
-                    if (ALLOWED_EXTENSIONS.has(ext.toLowerCase()) && !urlSet.has(src)) {
+                    console.log(src);
+                    if (ALLOWED_EXTENSIONS.has(ext.toLowerCase()) && !hasComma && !urlSet.has(src)) {
 
                         imageUrls.push(src);
                         urlSet.add(src);
