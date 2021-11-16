@@ -12,6 +12,6 @@
     "crawler": "^1.2.1"
   },
   "devDependencies": {
-    "aws-sdk": "^2.512.0"
+    "aws-sdk": "^2.814.0"
   }
 }
